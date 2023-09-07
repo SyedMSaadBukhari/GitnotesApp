@@ -1,0 +1,43 @@
+.gist-page {
+  display: flex;
+  margin-top: 4rem;
+}
+.gist-container {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+.gist-inform {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.user-actions {
+  display: flex;
+  align-items: center;
+}
+.ant-input-number {
+  width: 25px;
+  height: 25px;
+}
+p {
+  color: rgb(20, 0, 246);
+}
+.anticon-star.gist-star {
+  color: rgb(20, 0, 246);
+  margin-right: 6px;
+  cursor: pointer;
+}
+.anticon-fork.gist-fork {
+  color: rgb(20, 0, 246);
+  cursor: pointer;
+}
+.user-inform {
+  display: flex;
+  justify-content: space-evenly;
+}
+.username {
+  margin-left: 16px;
+  color: rgb(20, 0, 246);
+}

@@ -1,0 +1,41 @@
+.table-container {
+  display: flex;
+  justify-content: center;
+
+  .table {
+    margin-top: 1rem;
+    width: 70%;
+  }
+}
+:where(.css-dev-only-do-not-override-17a39f8).ant-table-wrapper
+  .ant-table-thead
+  > tr
+  > th,
+:where(.css-dev-only-do-not-override-17a39f8).ant-table-wrapper
+  .ant-table-thead
+  > tr
+  > td {
+  background-color: rgb(215, 255, 242);
+}
+.anticon-star {
+  color: rgb(31, 212, 152);
+  margin-right: 6px;
+  cursor: pointer;
+}
+.anticon-fork {
+  color: rgb(31, 212, 152);
+  cursor: pointer;
+}
+:where(.css-dev-only-do-not-override-1w4v3hc).ant-pagination
+  .ant-pagination-item-active
+  a {
+  color: rgb(31, 212, 152);
+}
+:where(.css-dev-only-do-not-override-1w4v3hc).ant-pagination
+  .ant-pagination-item-active {
+  border-color: rgb(31, 212, 152);
+}
+.gist-id {
+  color: black;
+  cursor: pointer;
+}

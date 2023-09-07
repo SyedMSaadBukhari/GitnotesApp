@@ -1,0 +1,31 @@
+* {
+  justify-content: center;
+}
+
+.toggle-display {
+  display: flex;
+  justify-content: center;
+}
+.toggle-btns {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 3rem;
+  width: 70%;
+  margin-inline: 2px;
+}
+
+.anticon-appstore {
+  font-size: 25px;
+  color: rgb(31, 212, 152);
+  cursor: pointer;
+}
+.anticon-line {
+  font-size: 25px;
+  color: #d3d3d3;
+  rotate: 90deg;
+}
+.anticon-unordered-list {
+  font-size: 25px;
+  color: rgb(31, 212, 152);
+  cursor: pointer;
+}

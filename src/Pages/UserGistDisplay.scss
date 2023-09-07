@@ -1,0 +1,40 @@
+.UserGist-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.userGist-actions {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+}
+.user-info {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+.user-name {
+  color: rgb(75, 75, 247);
+}
+.userLogin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 75%;
+}
+.userName {
+  margin: 0px 0px;
+}
+.timestamp {
+  margin: 0 0;
+}
+
+.edit-gist,
+.delete-gist {
+  color: blue;
+}
+.Gist-play {
+  width: 60%;
+}
